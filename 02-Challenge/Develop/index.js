@@ -8,7 +8,7 @@ const questions = [
     {
         type: "input",
         name: "title",
-        message: "What is your prohect title?"
+        message: "What is your project title?"
     },
     {
         type: "input",
@@ -30,6 +30,14 @@ const questions = [
         name: "license",
         message: "Choose the following licenses.",
         choices: ["MIT", "IBM", "Apache", "Other"]
+
+    },
+    {
+        type: "multiselect",
+        name: "tableOfContents",
+        message:"What's in the table of contents?",
+        choices: [{Title:'Description'},{Title:'Installation'},{Title:'License'},{Title:'Usage'}],
+        max: 4,
 
     }
 
