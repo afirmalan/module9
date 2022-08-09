@@ -1,20 +1,20 @@
-# README Generator
+# Readme
 
 ## Description
 
-This is a generator using node to produce a readme for any occasion.
+description
 
 ## Table of Contents (Optional)
 
-Description, Installation,
+title, description, installtion, usage, licenses
 
 ## Installation
 
-You install it by running "node index.js"
+installation
 
 ## Usage
 
-Once you install the npm and run it using  "node index.js", you will follow the prompts in the terminal to complete the readme.
+usage
 
 ## Credits
 
@@ -22,7 +22,7 @@ undefined
 
 ## License
 
-undefined
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
 ---
 
